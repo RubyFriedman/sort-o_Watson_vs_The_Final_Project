@@ -1,9 +1,16 @@
 # sort-o_Watson_vs_The_Final_Project
+
 TNPG: Watson vs The Final Project (Anjini Katari, Ruby Friedman, Joshua Gao)
+
 APCS pd07
+
 LAB 04
+
 2022-01-07f
-time spent: 1.0 hrs
+
+time spent: 1.5 hrs
+
+#
 
 SOTW:
   - Under Pressure by Queen
