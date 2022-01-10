@@ -2,13 +2,16 @@ TNPG: Watson vs The Final Project (Anjini Katari, Ruby Friedman, Joshua Gao)
 APCS pd07
 LAB 04
 2022-01-10m
-time spent: 4.5 hrs
+time spent: 6.5 hrs
 
 DISCO:
  * Tracing by hand- while extremely time consuming- is VERY helpful
  * Make usage of SOP to help find where things go wrong
+ * How to use Big O notation for time size relationships.
+ 
 
 QCC:
  * How different would the results be if we compared passes to swaps?
  * Why would we compare # of passes vrs # of swaps?
-
+ * How does knowing Big O notation help us?
+ * Could we use this data to create a predictive model for swaps and passes of a random list
