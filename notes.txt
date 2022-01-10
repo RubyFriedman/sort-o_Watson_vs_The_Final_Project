@@ -5,5 +5,10 @@ LAB 04
 time spent: 4.5 hrs
 
 DISCO:
+ * Tracing by hand- while extremely time consuming- is VERY helpful
+ * Make usage of SOP to help find where things go wrong
 
 QCC:
+ * How different would the results be if we compared passes to swaps?
+ * Why would we compare # of passes vrs # of swaps?
+
