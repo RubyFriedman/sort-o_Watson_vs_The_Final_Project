@@ -45,6 +45,10 @@ public class Driver{
                 bigBad.add(i);
         }
 
+        ArrayList a = populate( 100, 1, 1000 );
+        ArrayList b = populate( 200, 1, 1000 );
+        ArrayList c = populate( 500, 1, 1000 );
+
         ArrayList bigRand = populate( 1000, 1, 1000 ); //rand pop
 
         System.out.println("" + kaz + ":");
@@ -77,6 +81,17 @@ public class Driver{
         Sorts.bubble(bigRand);
         Sorts.selection(bigRand);
         Sorts.insertion(bigRand);
+
+        Sorts.bubble(a);
+        Sorts.selection(a);
+        Sorts.insertion(a);
+        Sorts.bubble(b);
+        Sorts.selection(b);
+        Sorts.insertion(b);
+        Sorts.bubble(c);
+        Sorts.selection(c);
+        Sorts.insertion(c);
+
     }
 
 
