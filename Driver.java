@@ -10,7 +10,7 @@ public class Driver{
         }
         return retAL;
     }
-    
+
     //randomly rearrange elements of an ArrayList
     public static void shuffle( ArrayList al ) {
         int randomIndex;
@@ -33,48 +33,33 @@ public class Driver{
         //Bubbles
         System.out.println("==========Bubble==========");
         System.out.println( "\nArrayList kaz before sorting:\n" + kaz );
-        Sorts.bubble(kaz);
-        System.out.println( "\nArrayList kaz after sorting:\n" + kaz );
+        System.out.println( "\nArrayList kaz after sorting:\n");
+        System.out.println(Sorts.bubble(kaz));
 
         ArrayList ketterdam = populate( 10, 1, 1000 );
         System.out.println( "\nArrayList ketterdam before sorting:\n" + ketterdam );
-        Sorts.bubble(ketterdam);
-        System.out.println( "\nArrayList ketterdam after sorting:\n" + ketterdam );
+        System.out.println( "\nArrayList ketterdam after sorting:\n");
+	System.out.println( Sorts.bubble(ketterdam));
 
         //Selection
-        ArrayList jes = new ArrayList<Integer>();
-        jes.add(7);
-        jes.add(1);
-        jes.add(5);
-        jes.add(12);
-        jes.add(3);
         System.out.println("==========Selection==========");
-        System.out.println( "\nArrayList jes before sorting:\n" + jes );
-        Sorts.selection(jes);
-        System.out.println( "\nArrayList jes after sorting:\n" + jes );
+        System.out.println( "\nArrayList kaz before sorting:\n" + kaz );
+        System.out.println( "\nArrayList kaz after sorting:\n");
+        System.out.println(Sorts.selection(kaz));
 
-        ArrayList zoya = populate( 10, 1, 1000 );
-        System.out.println( "\nArrayList zoya before sorting:\n" + zoya );
-        Sorts.selection(zoya);
-        System.out.println( "\nArrayList zoya after sorting:\n" + zoya );
+        System.out.println( "\nArrayList ketterdam before sorting:\n" + ketterdam );
+        System.out.println( "\nArrayList ketterdam after sorting:\n");
+        System.out.println( Sorts.selection(ketterdam));
 
         //Insertion
-        ArrayList wylan = new ArrayList<Integer>();
-        wylan.add(7);
-        wylan.add(1);
-        wylan.add(5);
-        wylan.add(12);
-        wylan.add(3);
         System.out.println("==========Insertion==========");
-        System.out.println( "\nArrayList wylan before sorting:\n" + wylan );
-        Sorts.insertion(wylan);
-        System.out.println( "\nArrayList wylan after sorting:\n" + wylan );
+        System.out.println( "\nArrayList kaz before sorting:\n" + kaz );
+        System.out.println( "\nArrayList kaz after sorting:\n");
+        System.out.println(Sorts.insertion(kaz));
 
-        ArrayList nina = populate( 10, 1, 1000 );
-        System.out.println( "\nArrayList nina before sorting:\n" + nina );
-        Sorts.insertion(nina);
-        System.out.println( "\nArrayList nina after sorting:\n" + nina );
-        
+        System.out.println( "\nArrayList ketterdam before sorting:\n" + ketterdam );
+        System.out.println( "\nArrayList ketterdam after sorting:\n");
+        System.out.println( Sorts.insertion(ketterdam));
     }
 
 

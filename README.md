@@ -15,6 +15,8 @@ time spent: 1.5 hrs
 SOTW:
   - Under Pressure by Queen
   - Flickers by Son Lux
+  - Call To Me by Sharam
+  - She Came Along by Sharam
 
 Best Case Scenario:
   The best case scenario for a bubble, selection or insertion sort is for all 
