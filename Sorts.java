@@ -69,13 +69,15 @@ public static void selectionSortV( ArrayList<Comparable> data )
     //    System.out.println( "maxPos: " + maxPos );//diag
   //      System.out.println( data );//diag
         comp += 1;
-        if ( data.get(i).compareTo( data.get(maxPos) ) > 0 ) {
+        if ( data.get(i).compareTo( data.get(maxPos) ) < 0 ) {
           maxPos = i;
-          swap += 1;}
-      }
-      data.set( maxPos, ( data.set( pass, data.get(maxPos) ) ) );
+          swap += 1;
+	   data.set( maxPos, ( data.set( pass, data.get(maxPos) ) ) );
+	}
+
       //System.out.println( "after swap: " +  data );//diag
     }
+}
     System.out.print("In a data set of size " + data.size() + " selection sort took " );
     System.out.print( swap);
     System.out.println(" swaps, " + passes + " passes and " + comp + " comparisons");
