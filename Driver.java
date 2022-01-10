@@ -30,6 +30,16 @@ public class Driver{
         kaz.add(12);
         kaz.add(3);
 
+	ArrayList best = new ArrayList<Integer>();
+	for (int i = 0; i < 10; i++) {
+		best.add(i);
+	}
+
+	ArrayList worst = new ArrayList<Integer>();
+        for (int i = 10; i > 0; i--) {
+                worst.add(i);
+        }
+
         //Bubbles
         System.out.println("==========Bubble==========");
         System.out.println( "\nArrayList kaz before sorting:\n" + kaz );
@@ -41,6 +51,14 @@ public class Driver{
         System.out.println( "\nArrayList ketterdam after sorting:\n");
 	System.out.println( Sorts.bubble(ketterdam));
 
+        System.out.println( "\nArrayList best before sorting:\n" + best );
+        System.out.println( "\nArrayList best after sorting:\n");
+        System.out.println( Sorts.bubble(best));
+
+        System.out.println( "\nArrayList worst before sorting:\n" + worst );
+        System.out.println( "\nArrayList worst after sorting:\n");
+        System.out.println( Sorts.selection(worst));
+
         //Selection
         System.out.println("==========Selection==========");
         System.out.println( "\nArrayList kaz before sorting:\n" + kaz );
@@ -51,6 +69,13 @@ public class Driver{
         System.out.println( "\nArrayList ketterdam after sorting:\n");
         System.out.println( Sorts.selection(ketterdam));
 
+        System.out.println( "\nArrayList best before sorting:\n" + best );
+        System.out.println( "\nArrayList best after sorting:\n");
+        System.out.println( Sorts.selection(best));
+
+        System.out.println( "\nArrayList worst before sorting:\n" + worst );
+        System.out.println( "\nArrayList worst after sorting:\n");
+        System.out.println( Sorts.selection(worst));
         //Insertion
         System.out.println("==========Insertion==========");
         System.out.println( "\nArrayList kaz before sorting:\n" + kaz );
@@ -60,6 +85,14 @@ public class Driver{
         System.out.println( "\nArrayList ketterdam before sorting:\n" + ketterdam );
         System.out.println( "\nArrayList ketterdam after sorting:\n");
         System.out.println( Sorts.insertion(ketterdam));
+
+        System.out.println( "\nArrayList best before sorting:\n" + best );
+        System.out.println( "\nArrayList best after sorting:\n");
+        System.out.println( Sorts.selection(best));
+
+        System.out.println( "\nArrayList worst before sorting:\n" + worst );
+        System.out.println( "\nArrayList worst after sorting:\n");
+        System.out.println( Sorts.selection(worst));
     }
 
 
