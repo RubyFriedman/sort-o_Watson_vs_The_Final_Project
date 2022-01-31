@@ -17,6 +17,7 @@ SOTW:
   - Flickers by Son Lux
   - Call To Me by Sharam
   - She Came Along by Sharam
+  - Daddy ! Daddy ! Do ! by Masayuki Suzuki
 
 # Bubble Sort
  * Bubble Sort starts from the rightmost value and compares it to the val immediately left of it. If the val to the left is greater it swaps the 2 vals and continues moving down the array to the left while comparing the next 2 vals and swapping if necessary until it gets to last position of the element (which is the first index)
