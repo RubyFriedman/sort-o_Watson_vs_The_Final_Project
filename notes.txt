@@ -5,13 +5,16 @@ LAB 04
 time spent: 6.5 hrs
 
 DISCO:
- * Tracing by hand- while extremely time consuming- is VERY helpful
- * Make usage of SOP to help find where things go wrong
+ * Tracing by hand- while extremely time consuming- is VERY helpful.
+ * Make usage of SOP to help find where things go wrong.
  * How to use Big O notation for time size relationships.
+ * Commenting the size of each array serves as a useful ID to organize each of the array in sequential order. It was very simple to do: just simply comment (array size).
+ * Covering extreme cases help us make sure the program works in all circumstance and helps identify any potential bugs.
+ * All 3 sorting algorithms are actually best used to identify whether the array is already sorted. That is especially true for bubble sort and selection sort. Insertion sort is a bit more versatile in mostly sorted arrays, but there seems to be much more effective sorting algorithms than these three. 
  
 
 QCC:
- * How different would the results be if we compared passes to swaps?
- * Why would we compare # of passes vrs # of swaps?
- * How does knowing Big O notation help us?
- * Could we use this data to create a predictive model for swaps and passes of a random list
+ * How different would the results be if we compared passes to swaps? (Hypothesis: We should use both.)
+ * Why would we compare # of passes vrs # of swaps? 
+ * How does knowing Big O notation help us? (Hypothesis: We can identify the most efficient sorting based on their respective time complexity.) 
+ * Could we use this data to create a predictive model for swaps and passes of a random list? (Hypothesis: Yes.)
